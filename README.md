@@ -103,17 +103,11 @@ Ports Open: 445 (SMB), 3389 (RDP)
 | `scan_result.txt`| Nmap scan output (saved results)      |
 | `screenshot.png` | (Optional) CLI screenshot             |
 
----
-
-## 🔗 Submission Link
-
-[Click Here to Submit](https://forms.gle/8Gm83s53KbyXs3Ne9)
-
----
+--
 
 ## 🙌 Author
 
-**Name:** _Your Name Here_  
+Name: Gulshan 
 **Internship Program:** Cyber Security Internship – Task 1  
 **Date:** August 2025
 
