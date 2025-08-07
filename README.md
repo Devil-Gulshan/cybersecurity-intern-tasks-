@@ -104,6 +104,60 @@ Ports Open: 445 (SMB), 3389 (RDP)
 | `screenshot.png` | (Optional) CLI screenshot             |
 
 --
+ 
+#  Task -3  🛡️ Vulnerability Scan Report - Nessus Essentials
+
+This repository contains the results of a basic vulnerability scan performed on a personal computer using **Nessus Essentials** as part of a Cyber Security Internship Task.
+
+## 📌 Objective
+To perform a vulnerability assessment on the local machine and identify potential security issues using a free tool like Nessus.
+
+## 🧰 Tools Used
+- **Nessus Essentials** (Free Edition)
+- Target IP: `127.0.0.1` (localhost)
+- Scan Type: Basic Network Scan
+
+## 📊 Summary of Findings
+
+| Severity  | Count |
+|-----------|-------|
+| Critical  | 2     |
+| High      | 3     |
+| Medium    | 4     |
+| Low       | 3     |
+| **Total** | 12    |
+
+## 🚨 Top Critical Vulnerabilities
+
+1. **SMBv1 Enabled (CVE-2017-0144)**
+   - Description: Outdated protocol vulnerable to ransomware like WannaCry.
+   - CVSS: 9.8
+   - Fix: Disable SMBv1 via Windows Features.
+
+2. **Outdated OpenSSH (CVE-2020-15778)**
+   - Description: Command injection flaw in older OpenSSH versions.
+   - CVSS: 8.8
+   - Fix: Upgrade OpenSSH to latest version.
+
+## 🛠️ Remediation Steps
+- Update OS and applications regularly
+- Disable unused services and ports
+- Use firewall and antivirus
+- Run regular vulnerability scans
+
+## 📸 Screenshots
+See the `/cyber_security_task-3` folder for proof of scan and detected vulnerabilities.
+
+## 📄 Report
+- `/cyber_security_task-3` contains the complete report with findings and recommendations.
+
+## ✅ Outcome
+Gained hands-on experience with vulnerability scanning and risk assessment using industry tools.
+
+---
+
+> This task is part of the Cyber Security Internship program.
+
 
 ## 🙌 Author
 
