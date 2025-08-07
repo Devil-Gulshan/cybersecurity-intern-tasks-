@@ -95,15 +95,73 @@ Ports Open: 445 (SMB), 3389 (RDP)
 
 ---
 
-## 📁 Repository Contents
+##  Task - 2 📧 Phishing Email Analysis Report
+This repository contains the analysis of a suspicious email that appears to be a phishing attempt disguised as a communication from PayPal.
 
-| File             | Description                           |
-|------------------|---------------------------------------|
-| `README.md`      | This detailed report                  |
-| `scan_result.txt`| Nmap scan output (saved results)      |
-| `screenshot.png` | (Optional) CLI screenshot             |
+📝 Task Objective
+Analyze the provided email and identify phishing indicators using email header and body inspection tools.
 
---
+🔍 Tools Used
+MXToolbox Email Header Analyzer
+
+Browser Hover Inspection (for link checking)
+
+ZIP File Behavior Observation
+
+🧠 Key Findings
+1. Email Header Analysis
+Header Field	Observation	Finding
+From	support@paypal.com	May be spoofed
+Return-Path	alert@secure-paypal-login.com	Mismatch with From address
+Received IP	185.231.112.45	Unusual location (Eastern Europe)
+SPF	Fail	Unauthorized sender
+DKIM	Fail	Invalid signature
+Subject	URGENT: Verify your PayPal account now	Threatening tone
+
+2. Email Body Analysis
+Urgent Language: "Your account will be suspended within 24 hours."
+
+Fake Link: Text shows PayPal, but actual URL is malicious.
+
+Spelling Error: “securty” instead of “security”.
+
+Generic Greeting: “Dear Customer” instead of recipient’s name.
+
+Malicious Attachment: ZIP file with embedded .exe malware.
+
+3. Summary of Phishing Indicators
+Domain spoofing and mismatch
+
+SPF & DKIM authentication failed
+
+Link redirects to phishing domain
+
+Contains malware in attachment
+
+Uses urgency and fear tactics (social engineering)
+
+📸 Suggested Screenshots (For GitHub)
+Screenshot of email header analysis output
+
+Screenshot of suspicious link (hovered)
+
+Screenshot of ZIP attachment warning
+
+✅ Conclusion
+This email is a clear phishing attempt. Users should:
+
+Not click on links
+
+Never open unknown attachments
+
+Report to the real service provider
+
+Delete such emails immediately
+
+🧠 This task is part of the Cyber Security Internship Program – Email Threat Analysis Module.
+
+
+
  
 #  Task -3  🛡️ Vulnerability Scan Report - Nessus Essentials
 
