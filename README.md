@@ -214,6 +214,53 @@ Gained hands-on experience with vulnerability scanning and risk assessment using
 
 ---
 
+# 🔥 Task - 4  Firewall Rule Testing – Telnet Blocked (Kali Linux)
+This task demonstrates how a firewall rule blocks unwanted ports like Telnet (port 23) using Linux firewall utilities (UFW/iptables) and verifies the configuration via terminal tests.
+
+## 🎯 Objective
+To create, apply, and test a firewall rule to block Telnet connections on port 23, and document the result using terminal screenshots.
+
+## 🧰 Tools Used
+Operating System: Kali Linux
+
+Firewall: UFW (Uncomplicated Firewall)
+
+Testing Tool: Telnet command from terminal
+
+### ⚙️ Steps Performed
+Enable UFW (if not already):
+
+### sudo ufw enable
+Block Port 23 (Telnet):
+
+### sudo ufw deny 23/tcp
+Check UFW Status:
+
+
+### sudo ufw status verbose
+Try Telnet Connection (Expect Failure):
+
+### telnet localhost 23
+Expected Result: Connection refused
+
+(Optional) Remove the Rule:
+
+### sudo ufw delete deny 23/tcp
+📸 Screenshots Included
+ufw status verbose output showing blocked port
+other screen short in file is /cyber_security_Task-4
+
+Telnet connection attempt showing “Connection refused” error
+
+### ✅ Outcome
+Successfully tested that the firewall blocked Telnet traffic. This confirms that:
+
+UFW is functioning properly
+
+Custom port rules are applied effectively
+
+Basic firewall behavior is understood
+
 > This task is part of the Cyber Security Internship program.
 
 
