@@ -263,6 +263,73 @@ Basic firewall behavior is understood
 
 > This task is part of the Cyber Security Internship program.
 
+----
+# Task-5  📡 Wireshark Network Traffic Capture & Analysis
+
+This repository contains the results of **Task 5** from my Cyber Security Internship — capturing and analyzing network traffic using **Wireshark**.
+
+---
+
+## 🎯 Objective
+To capture live network traffic, identify multiple protocols, and analyze their packet details to understand how data flows through the network.
+
+---
+
+## 🧰 Tools Used
+- **Wireshark** (Network Protocol Analyzer)
+- **Kali Linux** (Capture environment)
+- **Active Network Interface** (`wlan0` / `eth0`)
+
+---
+
+## 🛠 Steps Performed
+1. Installed & launched **Wireshark**.
+2. Selected active network interface.
+3. Started live packet capture.
+4. Generated traffic:
+   - Browsed websites (HTTP/HTTPS)
+   - Ran DNS lookups
+   - Sent ping requests (ICMP)
+5. Applied filters to view:
+   - `dns` – All DNS packets
+   - `dns.flags.response == 0` – DNS queries
+   - `dns.flags.response == 1` – DNS responses
+   - `tcp.flags.syn == 1 && tcp.flags.ack == 0` – SYN packets
+   - `tcp.flags.syn == 1 && tcp.flags.ack == 1` – SYN-ACK packets
+   - `tcp.flags.ack == 1 && tcp.flags.syn == 0` – ACK packets
+6. Stopped capture & saved `.pcap` file.
+7. Documented packet details and observations.
+
+---
+
+## 📊 Protocols Observed
+| Protocol | Purpose | Observation |
+|----------|---------|-------------|
+| **HTTP** | Web browsing | GET/POST requests visible (unencrypted) |
+| **DNS**  | Domain resolution | Query & response for `example.com` |
+| **TCP**  | Reliable transport | Three-way handshake captured |
+| **ICMP** | Network testing | Echo request/reply messages |
+
+---
+
+## 📸 Screenshots Included
+- DNS query & response details pane
+- TCP three-way handshake packets
+- HTTP request/response view
+- location -- ####/cyber_security_Task-5
+
+---
+
+## 🧠 Key Learnings
+- Applying filters makes packet analysis faster and more precise.
+- DNS and TCP handshakes reveal how connections are established.
+- Unencrypted traffic (HTTP) can expose sensitive details.
+- Wireshark is an essential tool for network troubleshooting & security analysis.
+
+---
+
+## ✅ Conclusion
+
 
 ## 🙌 Author
 
