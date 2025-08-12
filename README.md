@@ -327,7 +327,52 @@ To capture live network traffic, identify multiple protocols, and analyze their 
 - Wireshark is an essential tool for network troubleshooting & security analysis.
 
 ---
+# Task -6  Password Security: Creation and Evaluation
 
+## Objective
+To understand what makes a password strong, create multiple passwords with varying complexity, evaluate their strength using online tools, and learn best practices for password security.
+
+## Tasks Overview
+- Created multiple passwords with different levels of complexity.
+- Used [passwordmeter.com](https://passwordmeter.com) to test each password's strength.
+- Noted the strength scores and feedback from the tool.
+- Analyzed how password complexity influences security.
+- Researched common password attacks like brute force and dictionary attacks.
+- Summarized key best practices for creating strong passwords.
+
+## Created Passwords
+| Password                    | Length | Complexity Level | Strength Score | Feedback                                   |
+|------------------------------|---------|------------------|----------------|--------------------------------------------|
+| `password123`                | 11      | Low              | Weak           | Too simple, easy to guess                 |
+| `Summer2023!`                | 11      | Moderate         | Moderate       | Better, but could be more complex         |
+| `G7#kL9!pQ2@zM8^`             | 14      | High             | Strong         | Complex with a mix of characters and length |
+
+## Key Learnings
+- Longer passwords (>12 characters) are generally more secure.
+- Including uppercase, lowercase, numbers, and symbols enhances strength.
+- Avoid common words, patterns, or personal info.
+- Regularly updating passwords adds an extra layer of security.
+- Strong passwords effectively resist brute force and dictionary attacks.
+
+## Common Password Attacks
+- **Brute Force Attack:** Trying all possible combinations.
+- **Dictionary Attack:** Using common words and phrases.
+- **Phishing:** Tricking users into revealing passwords.
+
+## Best Practices for Passwords
+- Use unique, complex passwords for different accounts.
+- Incorporate a mix of character types.
+- Use passphrases or random combinations.
+- Consider using a password manager for secure storag
+
+---
+
+## Note:
+Remember to keep your passwords confidential and never share them publicly.
+
+---
+
+*This project helps in understanding the importance of password security and best practices to protect your digital identity.*
 
 
 
