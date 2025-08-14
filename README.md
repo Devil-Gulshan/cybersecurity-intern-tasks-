@@ -374,7 +374,87 @@ Remember to keep your passwords confidential and never share them publicly.
 
 *This project helps in understanding the importance of password security and best practices to protect your digital identity.*
 
+---
+# 🛡️ Task 7 – Identify and Remove Suspicious Browser Extensions
 
+This repository contains the work for **Task 7** of my Cyber Security Internship: auditing browser extensions to detect and remove potentially malicious or unnecessary ones.
+
+---
+
+## 🎯 Objective
+To review all installed browser extensions, identify suspicious or unused ones, remove them, and document the process to enhance browser security.
+
+---
+
+## 🧰 Tools Used
+- **Browser:** Google Chrome / Mozilla Firefox
+- **Built-in Extension Manager**
+- **Online research:** Google search for extension reputation
+- **User Reviews & Ratings** from Chrome Web Store / Firefox Add-ons
+
+---
+
+## 🛠 Steps Performed
+1. **Opened Browser Extension Manager**  
+   - **Chrome:** `Menu → More Tools → Extensions`  
+   - **Firefox:** `Menu → Add-ons and Themes → Extensions`  
+
+2. **Reviewed Installed Extensions**  
+   - Checked extension name, publisher, and purpose.
+
+3. **Checked Permissions**  
+   - Looked for high-risk permissions like:
+     - “Read and change all your data on all websites”
+     - “Access to browsing history”
+   
+4. **Verified Reputation**  
+   - Searched extension name with “malware” keyword.
+   - Checked store reviews and ratings.
+
+5. **Removed Suspicious Extensions**  
+   - Uninstalled unused or unsafe extensions.
+
+6. **Restarted Browser**  
+   - Checked for improved performance and no unwanted ads or redirects.
+
+---
+
+## 📊 Suspicious Extensions Removed
+
+| Extension Name         | Publisher        | Reason for Removal                                   | Action Taken |
+|------------------------|------------------|------------------------------------------------------|--------------|
+| “Video Downloader Pro” | Unknown Developer| Requested unnecessary access to all browsing data   | Removed      |
+| “Shopping Helper”      | Unknown          | Injected ads, poor reviews                           | Removed      |
+| “Old Screenshot Tool”  | Unknown          | Outdated, unused                                     | Removed      |
+
+---
+
+## ⚠️ How Malicious Extensions Can Harm Users
+- **Data Theft:** Steal passwords, cookies, and browsing history.
+- **Ad Injection:** Display unwanted advertisements.
+- **Phishing Redirects:** Send users to fake websites.
+- **Cryptojacking:** Use your CPU for mining cryptocurrency.
+- **Tracking:** Sell your browsing data.
+
+---
+
+## 💡 Best Practices
+- Install extensions only from **official stores**.
+- Check permissions before installing.
+- Read reviews and verify the developer.
+- Remove unused extensions regularly.
+- Keep your browser updated.
+
+---
+
+## 📸 Screenshots Included
+- Screenshot of extension list before removal.
+- Screenshot of suspicious extension’s permissions.
+- Screenshot of browser after cleaning
+- All screenshot are uploaded task -7 file 
+---
+
+> 📌 Part of Cyber Security Internship – Browser Security Module
 
 ## 🙌 Author
 
