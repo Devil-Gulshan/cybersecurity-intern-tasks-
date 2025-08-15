@@ -454,6 +454,47 @@ To review all installed browser extensions, identify suspicious or unused ones, 
 - All screenshot are uploaded task -7 file 
 ---
 
+# Task 8 – VPN Setup and Privacy Test
+
+## 📌 Overview
+This task demonstrates the setup and usage of a Virtual Private Network (VPN) to enhance privacy, hide the IP address, and ensure secure browsing. It also includes verification before and after VPN connection using IP address checks.
+
+---
+
+## 🎯 Objective
+- Understand VPN functionality.
+- Learn VPN client installation and configuration.
+- Verify IP change after VPN connection.
+- Evaluate security benefits and limitations of VPN usage.
+
+---
+
+## 🛠 Tools Used
+- **VPN Client:** ProtonVPN (Free Version)
+- **Operating System:** Kali Linux
+- **IP Verification:** `ip a` command & [WhatIsMyIPAddress.com](https://whatismyipaddress.com)
+- **Browser:** Google Chrome / Firefox
+
+---
+
+## 📂 Steps Performed
+
+### 1️⃣ Install & Setup VPN
+1. Download and install ProtonVPN client.
+2. Create a free ProtonVPN account.
+3. Login and choose the preferred server location.
+
+**Screenshot:**  
+![VPN Client Connected](screenshots/vpn_client_connected.png)
+All image to upload in cyber_security_task-8
+---
+
+### 2️⃣ Check IP Before VPN Connection
+1. Run the following command in terminal:
+   ```bash
+   ip a
+---
+
 > 📌 Part of Cyber Security Internship – Browser Security Module
 
 ## 🙌 Author
